@@ -1,8 +1,5 @@
-from .Parameters import *
+from .Initializer import *
 
 __all__ = [
-     'Initialize',
-     'ZeroInitialize',
-     'RandomInitialize'
-     'XavierInitialize',
+     'Initialize'
 ]
