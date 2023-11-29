@@ -376,7 +376,7 @@ class CovidDetection:
                 assert user_input == "yes" or user_input == "no"
                 if user_input == "yes":
                     name = input(">> Enter the name of your model: ")
-                    joblib.dump("trained_model/{name}.pkl".format(name=name))
+                    joblib.dump(model, "trained_model/" + name + ".pkl")
                     print("Model saved successfully in trained_model folder.")
                 break
             except AssertionError:
@@ -401,7 +401,8 @@ class CovidDetection:
         self.plot_result(model)
 
         # Save the model.
-        self.save_model(model)
+        if self.customize == True:
+            self.save_model(model)
 
         # Run diagnosing process.
         self.diagnose(model)
