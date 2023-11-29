@@ -152,7 +152,7 @@ class DataPreProcess:
             for training and testing.
         """
         # Load processed dataset.
-        X, y = pickle.load(open("Preprocessing/processed_dataset.pkl", "rb"))
+        X, y = pickle.load(open("preprocessing/processed_dataset.pkl", "rb"))
 
         # Split dataset into training and test set.
         X_shuffled, y_shuffled = self.shuffle_data(X, y)
