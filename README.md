@@ -2,7 +2,7 @@
 This is my first year project. The primary goal of this project is to develop a deep neural network model that can identify disease from chest X-ray pictures. The model will specifically learn all chest X-ray pictures gathered from COVID-19 patients as well as healthy people. Then, the model expects to receive chest X- ray images from the user and attempts to categorize whether the patient is positive or negative for COVID-19.
 
 While using the program, you have the options to use a pre-trained model or customize your own model. For the customization, you can choose your preferred initialization method, activation function, optimization method, hidden layers, number of iterations and hyper-parameter for regularization technique. Then, you will input chest X-ray image and the program will run diagnosis to classify whether it is a COVID-19 positive or negative case. As a result, the program will print a summary of all diagnosed cases.
-s
+
 ## Prerequisites
 
 In order to use this program, several Python modules and packages are used as supplementary materials to build the whole program. All these modules and packages must be installed to run the program without errors. Here is a list of some modules and packages used:
