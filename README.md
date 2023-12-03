@@ -17,8 +17,9 @@ In order to use this program, several Python modules and packages are used as su
 
 These packages can be install by typing following code in terminal:
 
-$ pip install requirements
-
+```
+pip install requirements
+```
 ## Program structure
 
 Here is the structure of our program:
@@ -51,7 +52,9 @@ COVID19-Detection
 ```
 In order to use our application, just executing the following code in terminal:
 
-$ python3 main.py
+```
+python3 main.py
+```
 
 When sucessfully starting the program, the option menu is display. It will ask users to choose between using a pre-trained model or customize a new model to begin the diagnosis. The output should look like this:
 ```
